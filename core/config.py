@@ -24,11 +24,11 @@ class ConfigManager:
 
     public_keys = {
         # activity
-        "twitch_url": "https://www.twitch.tv/discordmodmail/",
+        "twitch_url": "https://www.twitch.tv/androidgan/",
         # bot settings
-        "main_category_id": None,
+        "main_category_id": 735546900874395738,
         "fallback_category_id": None,
-        "prefix": "?",
+        "prefix": "p!",
         "mention": "@here",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
@@ -82,7 +82,7 @@ class ConfigManager:
         "status": None,
         # dm_disabled 0 = none, 1 = new threads, 2 = all threads
         # TODO: use enum
-        "dm_disabled": 0,
+        "dm_disabled": 1,
         "oauth_whitelist": [],
         # moderation
         "blocked": {},
@@ -111,7 +111,7 @@ class ConfigManager:
         "connection_uri": None,  # replace mongo uri in the future
         "owners": None,
         # bot
-        "token": None,
+        "token": NzEyMzYwMzcwOTY2MTAyNTk5.Xxh0vA.Bdtsu23mwn14VeIPdkezRtApYpU,
         "enable_plugins": True,
         "enable_eval": True,
         # github access token for private repositories
